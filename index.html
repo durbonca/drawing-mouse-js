@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Paint con JS</title>
+  </head>
+  <link rel="stylesheet" href="css/style.css">
+  <body>
+  <div>
+    <div class="media_pantalla">
+      <canvas id="area_de_dibujo" width="300" height="300" onmousemove="getCoords(event)"></canvas>
+      <b><p id="texto_coor"></p></b>
+    </div>
+    <div class="media_pantalla">
+      <h4><p><b>Paint con JS</b></p></h4>
+      <button style="background-color: red;" type="button" value="red" name="" id="rojo"></br></button>
+      <button style="background-color: blue;" type="button" value="blue" name="" id="azul"></br></button>
+      <button style="background-color: yellow;" type="button" value="yellow" name="" id="amarillo"></br></button>
+      <button style="background-color: white;" type="button" value="yellow" name="" id="blanco"></br></button>
+        <p>trazado </br></p>
+      <button type="button" name="" id="trazoLow"> pequeño </button>
+      <button type="button" name="" id="trazoMed"> mediano </button>
+      <button type="button" name="" id="trazoHig"> grande </button>
+      <hr>
+      </br>
+      <a id="download">
+      <input type="button" value="Descargar" onClick="descargar()">
+      </a>
+    </div>
+    </div>
+<script src="js/eventos.js"></script>
+<script src="js/descargar.js"></script>
+  </div>
+  </body>
+</html>

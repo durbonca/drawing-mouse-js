@@ -1,0 +1,9 @@
+#area_de_dibujo {
+  background-color: #fafafa;
+  border-style: solid;
+}
+.media_pantalla
+{
+  width: 310px;
+  float: left;
+}
